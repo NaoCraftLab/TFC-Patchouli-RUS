@@ -1,0 +1,83 @@
+{
+  "name": "Столярное дело",
+  "icon": "tfc:textures/items/metal/saw/copper.png",
+  "category": "processes",
+  "advancement": "tfc:main/copper_age",
+  "pages": [
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "tfc:saw_blade_bronze",
+      "text": "Теперь, когда у вас есть металл, вы сможете превратить бревна в более полезные вещи, например в доски! Сначала вам нужно $(l:basic_smithing/casting)отлить$() или $(l:basic_smithing/anvil)выковать$() пилу. Она в основном используется в крафте, но если захотите, можете пилить ею деревья."
+    },
+    {
+      "type": "crafting",
+      "title": "Распиловка древесины",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_lumber_log",
+      "text": "Первое, что вам нужно сделать, это распилить бревна на пиломатериалы."
+    },
+    {
+      "type": "crafting",
+      "title": "Доски",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_planks",
+      "text": "Из пиломатериалов можно сделать доски. Эти блоки не подвержены гравитации! Ура."
+    },
+    {
+      "type": "crafting",
+      "title": "Упс!",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_lumber_planks",
+      "text": "Вы можете превратить ваши доски обратно в пиломатериалы."
+    },
+    {
+      "type": "crafting",
+      "title": "Верстак",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_workbench",
+      "text": "Теперь вы можете создавать крупные вещи."
+    },
+    {
+      "type": "crafting",
+      "title": "Подставка для инструментов",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_tool_rack",
+      "text": "Вы захотите повесить это на стену, чтобы все ваши инструменты были вместе."
+    },
+    {
+      "type": "crafting",
+      "title": "Лодка",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_boat",
+      "text": "Они работают намного лучше, чем в версии 1.7.10. Теперь вы действительно можете куда-то добраться!"
+    },
+    {
+      "type": "crafting",
+      "title": "Книжная полка",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_bookshelf",
+      "text": "Они предназначены только для декора в TFC, но вы все равно можете их сделать."
+    },
+    {
+      "type": "crafting",
+      "title": "Сундук",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_chest_lumber",
+      "text": "Наконец-то место для хранения! Но будьте осторожны, вы не можете положить в него бревна."
+    },
+    {
+      "type": "crafting",
+      "title": "Дверь",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_door",
+      "text": "Вы получаете две! Разве это не мило?"
+    },
+    {
+      "type": "crafting",
+      "title": "Забор",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_fence",
+      "text": "Удерживает животных внутри."
+    },
+    {
+      "type": "crafting",
+      "title": "Ворота забора",
+      "recipe": "tfc:wood/douglas_fir/douglas_fir_fence_gate",
+      "text": "Позволяет проверить, как там животные."
+    },
+    {
+      "type": "text",
+      "text": "Другие вещи, такие как плиты, лестницы и кнопки, работают так, как вы ожидаете! Есть также несколько других новшеств TFC, таких как $(l:processes/barrels)бочки$(), о которых мы скоро расскажем."
+    }
+  ]
+}

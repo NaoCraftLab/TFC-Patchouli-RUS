@@ -1,0 +1,32 @@
+{
+  "name": "Место для сна",
+  "icon": "tfc:textures/items/hide/large/raw.png",
+  "category": "getting_started",
+  "advancement": "tfc:main/get_straw",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Кровать из $(item)соломы$() - это версия кровати из каменного века, аналогичная кровати из ванили. Чтобы сделать её, разместите два блока $(l:getting_started/basic_materials)соломы$() на земле рядом друг с другом. Затем, стоя на конце, обращенном к двум блокам соломы, $(4)кликните правой кнопкой мыши$() с $(item)Большой Сырой Шкурой$(). Большие шкуры можно получить только от коров и медведей."
+    },
+    {
+      "type": "multiblock",
+      "enable_visualize": true,
+      "text": "Кровать из соломы может сохранить вашу точку возрождения, но вы не сможете пропустить ночь.",
+      "name": "Соломенная Кровать",
+      "multiblock": {
+        "mapping": {
+          "P": "tfc:thatch_bed[facing=east,part=head]",
+          "D": "tfc:thatch_bed[facing=west,part=foot]"
+        },
+        "pattern": [
+          [
+            "0P ",
+            " D "
+          ]
+        ],
+        "symmetrical": false
+      }
+    }
+  ]
+}

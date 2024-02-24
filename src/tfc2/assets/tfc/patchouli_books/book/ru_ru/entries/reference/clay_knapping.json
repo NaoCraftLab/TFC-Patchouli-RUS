@@ -1,0 +1,54 @@
+{
+  "name": "Лепка из Глины",
+  "icon": "minecraft:textures/items/clay_ball.png",
+  "category": "reference",
+  "advancement": "tfc:main/find_clay",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "tfc:clay_knapping_recipe",
+      "recipe": "tfc:clay_small_vessel",
+      "text": "Маленький Сосуд"
+    },
+    {
+      "type": "tfc:clay_knapping_recipe",
+      "recipe": "tfc:clay_jug",
+      "text": "Кувшин"
+    },
+    {
+      "type": "tfc:clay_knapping_recipe",
+      "recipe": "tfc:clay_pot",
+      "text": "Горшок"
+    },
+    {
+      "type": "tfc:clay_knapping_recipe",
+      "recipe": "tfc:clay_bowl_2",
+      "text": "Глиняные Миски"
+    },
+    {
+      "type": "tfc:clay_knapping_recipe",
+      "recipe": "tfc:clay_large_vessel",
+      "text": "Большой Сосуд"
+    },
+    {
+      "type": "tfc:clay_knapping_recipe",
+      "recipe": "tfc:clay_brick",
+      "text": "Глиняный Кирпич"
+    },
+    {
+      "type": "tfc:clay_knapping_recipe",
+      "recipe": "tfc:clay_flower_pot",
+      "text": "Горшок для Цветов"
+    },
+    {
+      "type": "tfc:fire_clay_knapping_recipe",
+      "recipe": "tfc:fire_clay_crucible",
+      "text": "Тигель"
+    },
+    {
+      "type": "tfc:fire_clay_knapping_recipe",
+      "recipe": "tfc:fire_clay_brick",
+      "text": "Огнеупорный Кирпич"
+    }
+  ]
+}

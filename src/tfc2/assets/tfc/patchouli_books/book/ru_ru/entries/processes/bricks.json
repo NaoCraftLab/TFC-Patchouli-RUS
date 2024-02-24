@@ -1,0 +1,32 @@
+{
+  "name": "Кирпич и Раствор",
+  "icon": "tfc:textures/items/stonetypes/brick/chert.png",
+  "category": "processes",
+  "advancement": "tfc:main/copper_age",
+  "pages": [
+    {
+      "type": "crafting",
+      "text": "Вместо использования обычной глины вы можете делать кирпичи из рыхлых камней.",
+      "recipe": "tfc:stone/rhyolite/rhyolite_brick",
+      "title": "Кирпич"
+    },
+    {
+      "type": "crafting",
+      "recipe": "tfc:stone/rhyolite/rhyolite_pressure_plate",
+      "recipe2": "tfc:stone/rhyolite/rhyolite_button",
+      "title": "Рецепты Ванили"
+    },
+    {
+      "type": "crafting",
+      "recipe": "tfc:stone/rhyolite/rhyolite_bricks",
+      "title": "Кирпичи",
+      "text": "Для изготовления блоков кирпича вам понадобится $(3)раствор$(). 500 мБ Пресной воды и Флюса дают 500 мБ Известковой воды. Запечатайте песок в 100 мБ Известковой воды, чтобы получить 16 раствора."
+    },
+    {
+      "type": "crafting",
+      "text": "Вы также можете делать кирпичи из глины, вылепливая глиняные кирпичи и обжигая их. То же самое касается $(l:advanced_metalworking/fire_clay)огнеупорных кирпичей$()",
+      "recipe": "tfc:bricks",
+      "title": "Кирпичи Ванили"
+    }
+  ]
+}

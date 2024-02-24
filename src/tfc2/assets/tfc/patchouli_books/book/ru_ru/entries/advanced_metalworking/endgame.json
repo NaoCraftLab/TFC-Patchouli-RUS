@@ -1,0 +1,15 @@
+{
+  "name": "Завершающий Этап",
+  "icon": "minecraft:textures/items/bucket_empty.png",
+  "category": "advanced_metalworking",
+  "advancement": "tfc:main/get_red_steel",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "tfc:vanilla/bucket",
+      "title": "Ведро",
+      "text": "Поздравляем, теперь вы можете перемещать любую жидкость. Вы победили в TFC!"
+    }
+  ]
+}

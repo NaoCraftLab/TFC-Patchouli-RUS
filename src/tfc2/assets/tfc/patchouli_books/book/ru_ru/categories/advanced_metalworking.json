@@ -1,0 +1,6 @@
+{
+  "name": "Продвинутая металлообработка",
+  "description": "Более твердые металлы в TFC требуют особых процессов для их ковки.",
+  "icon": "tfc:textures/items/fluids/red_steel_bucket_empty.png",
+  "sortnum": 3
+}
