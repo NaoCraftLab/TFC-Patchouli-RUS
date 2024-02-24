@@ -1,6 +1,9 @@
 ### Project ###
 build/
 
+### Apple MacOS ###
+.DS_Store/
+
 ### JetBrains Fleet ###
 .fleet/
 
