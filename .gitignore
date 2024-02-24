@@ -1,0 +1,11 @@
+### Project ###
+build/
+
+### JetBrains Fleet ###
+.fleet/
+
+### JetBrains IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
