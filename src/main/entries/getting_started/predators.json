@@ -1,0 +1,90 @@
+{
+  "name": "Хищники",
+  "icon": "minecraft:textures/items/bone.png",
+  "category": "getting_started",
+  "advancement": "tfc:main/stone_age",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "В TFC много хищников, которых вы можете охотиться и которыми могут охотиться на вас. Некоторые атакуют днем, некоторые ночью. Если вы сможете убить одного, вас ждут щедрые награды в виде мяса и $(l:processes/leatherworking)Шкур$()."
+    },
+    {
+      "type": "entity",
+      "name": "Медведь",
+      "text": "Медведь атакует днем.",
+      "entity": "tfc:grizzlybeartfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Лев",
+      "text": "Лев охотится ночью.",
+      "entity": "tfc:liontfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Саблезуб",
+      "text": "Саблезуб атакует ночью.",
+      "entity": "tfc:sabertoothtfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Белый Медведь",
+      "text": "Белый Медведь атакует днем.",
+      "entity": "tfc:polarbeartfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Гиена",
+      "text": "Гиена атакует ночью.",
+      "entity": "tfc:hyenatfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Пантера",
+      "text": "Пантера охотится ночью.",
+      "entity": "tfc:panthertfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Волк-убийца",
+      "text": "Волк-убийца охотится ночью.",
+      "entity": "tfc:direwolftfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Шакал",
+      "text": "Шакал охотится ночью.",
+      "entity": "tfc:jackaltfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Черный Медведь",
+      "text": "Черный Медведь охотится днем.",
+      "entity": "tfc:blackbeartfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Пума",
+      "text": "Пума охотится ночью.",
+      "entity": "tfc:cougartfc",
+      "scale": 0.7
+    },
+    {
+      "type": "entity",
+      "name": "Койот",
+      "text": "Койот охотится ночью.",
+      "entity": "tfc:coyotetfc",
+      "scale": 0.7
+    }
+  ]
+}

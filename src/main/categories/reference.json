@@ -1,0 +1,6 @@
+{
+  "name": "Справочник",
+  "description": "Подробный справочный раздел по рецептам TFC, механикам и другим мелочам.",
+  "icon": "minecraft:textures/items/paper.png",
+  "sortnum": 99
+}

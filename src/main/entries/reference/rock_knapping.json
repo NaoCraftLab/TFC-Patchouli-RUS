@@ -1,0 +1,39 @@
+{
+  "name": "Камнерезка",
+  "icon": "tfc:textures/items/stonetypes/rock/chert.png",
+  "category": "reference",
+  "advancement": "tfc:main/pick_rock",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "tfc:rock_knapping_recipe",
+      "recipe": "tfc:axe_head",
+      "text": "Топорная головка"
+    },
+    {
+      "type": "tfc:rock_knapping_recipe",
+      "recipe": "tfc:shovel_head",
+      "text": "Лопатная головка"
+    },
+    {
+      "type": "tfc:rock_knapping_recipe",
+      "recipe": "tfc:hoe_head_1",
+      "text": "Мотыжные головки"
+    },
+    {
+      "type": "tfc:rock_knapping_recipe",
+      "recipe": "tfc:knife_head_2",
+      "text": "Ножевые лезвия"
+    },
+    {
+      "type": "tfc:rock_knapping_recipe",
+      "recipe": "tfc:javelin_head",
+      "text": "Дротиковая головка"
+    },
+    {
+      "type": "tfc:rock_knapping_recipe",
+      "recipe": "tfc:hammer_head",
+      "text": "Молотковая головка"
+    }
+  ]
+}
