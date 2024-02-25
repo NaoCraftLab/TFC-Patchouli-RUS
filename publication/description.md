@@ -13,6 +13,6 @@ Translation of the official book of the Patchouli mod for TerraFirmaCraft into R
 
 ## Installation
 
-- Install the TerraFirmaCraft mod
-- Install the Patchouli mod
-- Add the TFC-Patchouli-RUS resource pack corresponding to the game version
+1. Install the TerraFirmaCraft mod
+2. Install the Patchouli mod
+3. Add the TFC-Patchouli-RUS resource pack corresponding to the game version
