@@ -1,0 +1,35 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "Место для сна",
+  "category": "tfc:getting_started",
+  "icon": "tfc:medium_raw_hide",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Шутка! Соломенная кровать - это примитивная кровать, которая может использоваться для установки точки возрождения, но не для сна на ночь. Чтобы сделать соломенную кровать, разместите два блока $(thing)Соломы$() рядом друг с другом, затем кликните правой кнопкой мыши с $(thing)Большой Сырой Шкурой$(). Большие шкуры дают крупные животные, такие как $(thing)медведи$() и $(thing)коровы$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " D ",
+            " 0 "
+          ]
+        ],
+        "mapping": {
+          "0": "tfc:thatch_bed[part=head,facing=east]",
+          "D": "tfc:thatch_bed[part=foot,facing=east]"
+        }
+      },
+      "name": "Соломенная Кровать",
+      "text": "Построенная соломенная кровать.",
+      "enable_visualize": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8,
+  "extra_recipe_mappings": {
+    "tfc:thatch_bed": 0
+  }
+}

@@ -1,5 +1,26 @@
 # История версий
 
+## TFC-Patchouli-RUS-3.1.0
+
+**Build date:** 2024-02-25<br/>
+**Minecraft version:** 1.20.1<br/>
+**TerraFirmaCraft version:** 3.1.9<br/>
+**Patchouli version:** 1.20.1-84
+
+### RU
+
+#### Новое
+
+- Переведены все категории книги
+- Переведены почти все статьи из категории "Начало пути"
+
+### EN
+
+#### New
+
+- All book categories have been translated
+- Translated almost all articles from the category "Getting Started"
+
 ## TFC-Patchouli-RUS-2.1.0
 
 **Build date:** 2024-02-24<br/>
