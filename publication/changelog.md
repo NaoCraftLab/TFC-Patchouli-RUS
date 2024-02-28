@@ -1,6 +1,75 @@
 # История версий
 
-## TFC-Patchouli-RUS-3.1.0
+## TFC Patchouli RUS 1.20.1-4
+
+**Build date:** 2024-02-28<br/>
+**Minecraft version:** 1.20.1<br/>
+**TerraFirmaCraft version:** 3.1.9<br/>
+**Patchouli version:** 1.20.1-84
+
+### RU
+
+#### Исправлено
+
+- Исправлены замечания от команды проекта TFC
+
+### EN
+
+#### Fixed
+
+- Comments from TFC project team have been addressed
+
+# История версий
+
+## TFC Patchouli RUS 1.20.1-3
+
+**Build date:** 2024-02-27<br/>
+**Minecraft version:** 1.20.1<br/>
+**TerraFirmaCraft version:** 3.1.9<br/>
+**Patchouli version:** 1.20.1-84
+
+### RU
+
+#### Исправлено
+
+- Работа ссылок на страницы книги
+- Работа ссылок на горячие клавиши
+
+### EN
+
+#### Fixed
+
+- Fixed book page links
+- Fixed hotkey links
+
+## TFC Patchouli RUS 1.20.1-2-beta
+
+**Build date:** 2024-02-27<br/>
+**Minecraft version:** 1.20.1<br/>
+**TerraFirmaCraft version:** 3.1.9<br/>
+**Patchouli version:** 1.20.1-84
+
+### RU
+
+#### Новое
+
+- Книга переведена на 100%
+
+#### Известные проблемы
+
+- Большинство ссылок в статьях не работает
+
+### EN
+
+#### New
+
+- The book is translated 100%
+
+#### Known Issues
+
+- Most of the links in the articles do not work
+
+## TFC Patchouli RUS 1.20.1-1-beta
 
 **Build date:** 2024-02-25<br/>
 **Minecraft version:** 1.20.1<br/>
@@ -21,7 +90,7 @@
 - All book categories have been translated
 - Translated almost all articles from the category "Getting Started"
 
-## TFC-Patchouli-RUS-2.1.0
+## TFC Patchouli RUS 1.12.2-1
 
 **Build date:** 2024-02-24<br/>
 **Minecraft version:** 1.12.2<br/>

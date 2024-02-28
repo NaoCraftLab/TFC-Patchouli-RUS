@@ -1,35 +1,68 @@
-#!/usr/bin/env.sh bash
-
-# Проверка на наличие аргумента (тега)
-if [ -z "$1" ]; then
-  echo "Тег не указан!"
-  exit 1
-fi
-TAG=$1
-REPO_NAME=$(basename -s .git `git config --get remote.origin.url`)
+#!/bin/bash
 
 WORKING_DIR="$PWD"
-BUILD_DIR="${WORKING_DIR}/build"
-ARTIFACT_NAME="${REPO_NAME}-${TAG}.zip"
 
-# Определение папки исходников на основе тега
-if [[ $TAG == 1.*.* ]]; then
-  cd "${WORKING_DIR}/src/tfc"
-elif [[ $TAG == 2.*.* ]]; then
-  cd "${WORKING_DIR}/src/tfc2"
-elif [[ $TAG == 3.*.* ]]; then
-  cd "${WORKING_DIR}/src/tfc3"
-else
-  echo "Неверный формат тега! Должен быть 1.x.x, 2.x.x или 3.x.x"
+if [ -z "$1" ]; then
+  echo "Необходимо указать версию Minecraft в формате X.Y.Z (например, 1.12.2 или 1.20.1)!"
   exit 1
 fi
+MC_VERSION=$1
+MC_SHORT_VERSION=$(echo "$MC_VERSION" | cut -d"." -f1,2)
+MC_MINOR_VERSION=$(echo "$MC_VERSION" | cut -d"." -f2)
 
-# Создание директории для сборки, если она не существует
-mkdir -p ${BUILD_DIR}
+if [ -z "$2" ]; then
+  echo "Необходимо порядковый номер сборки!"
+  exit 1
+fi
+BUILD_NUMBER=$2
 
-# Сборка артефакта
+if [ "$MC_MINOR_VERSION" -gt "17" ]; then
+    if [ -z "$3" ]; then
+      echo "Необходимо указать директорию проекта TFC!"
+      exit 1
+    fi
+    TFC_DIR=$3
+fi
+
+BUILD_DIR="${WORKING_DIR}/build"
+RAW_DIR=${BUILD_DIR}/raw
+PATCHOULI_SOURCE_DIR="${TFC_DIR}/resources"
+PATCHOULI_BUILD_DIR="${TFC_DIR}/src/main/resources/assets/tfc/patchouli_books/field_guide/ru_ru"
+PATCHOULI_TARGET_DIR=${RAW_DIR}/assets/tfc/patchouli_books/field_guide/ru_ru
+
+PROJECT_NAME=$(basename -s .git `git config --get remote.origin.url`)
+ARTIFACT_NAME="${PROJECT_NAME}-${MC_VERSION}-${BUILD_NUMBER}.zip"
+
+echo "Сборка: ${ARTIFACT_NAME}"
+
+echo "Очистка директории ${BUILD_DIR}"
+rm -rf $BUILD_DIR
+#mkdir -p $BUILD_DIR
+mkdir -p $RAW_DIR
+
+if [ "$MC_MINOR_VERSION" -gt "17" ]; then
+    echo "Очистка директории ${PATCHOULI_BUILD_DIR}"
+    rm -rf $PATCHOULI_BUILD_DIR
+
+    echo "Сборка актуальной локализации"
+    cd $PATCHOULI_SOURCE_DIR
+    pip3.10 install -r requirements.txt
+    cd ..
+    python3.10 ./resources/__main__.py --translate ru_ru book
+    cd $WORKING_DIR
+
+    echo "Копирование файлов перевода"
+    mkdir -p $PATCHOULI_TARGET_DIR
+    cp -rp ${PATCHOULI_BUILD_DIR}/* $PATCHOULI_TARGET_DIR
+fi
+
+echo "Копирование метаданных ресурспака"
+cp -rp ./src/${MC_SHORT_VERSION}/* $RAW_DIR
+
+echo "Сборка zip архива"
+cd $RAW_DIR
 zip -q -0 -r "${BUILD_DIR}/${ARTIFACT_NAME}" * >/dev/null 2>&1
+cd $WORKING_DIR
 
-echo "Артефакт собран: ${BUILD_DIR}/${ARTIFACT_NAME}"
-
-cd ${WORKING_DIR}
+echo "Сборка выполнена успешно!"
+exit 0
