@@ -1,5 +1,5 @@
 {
-  "name": "Завершающий Этап",
+  "name": "Завершающий этап",
   "icon": "minecraft:textures/items/bucket_empty.png",
   "category": "advanced_metalworking",
   "advancement": "tfc:main/get_red_steel",

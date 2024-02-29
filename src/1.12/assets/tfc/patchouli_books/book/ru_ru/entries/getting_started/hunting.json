@@ -1,5 +1,5 @@
 {
-  "name": "Охотничий Азарт",
+  "name": "Охотничий азарт",
   "icon": "tfc:textures/items/stone/javelin.png",
   "category": "getting_started",
   "advancement": "tfc:main/stone_age",
@@ -70,7 +70,7 @@
     {
       "type": "entity",
       "name": "Индейка",
-      "text": "Пора готовить ужин на День Благодарения.",
+      "text": "Пора готовить ужин на день благодарения.",
       "entity": "tfc:turkeytfc"
     }
   ]

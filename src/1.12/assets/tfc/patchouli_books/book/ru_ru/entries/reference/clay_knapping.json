@@ -1,5 +1,5 @@
 {
-  "name": "Лепка из Глины",
+  "name": "Лепка из глины",
   "icon": "minecraft:textures/items/clay_ball.png",
   "category": "reference",
   "advancement": "tfc:main/find_clay",
@@ -8,7 +8,7 @@
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:clay_small_vessel",
-      "text": "Маленький Сосуд"
+      "text": "Маленький сосуд"
     },
     {
       "type": "tfc:clay_knapping_recipe",
@@ -23,22 +23,22 @@
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:clay_bowl_2",
-      "text": "Глиняные Миски"
+      "text": "Глиняные миски"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:clay_large_vessel",
-      "text": "Большой Сосуд"
+      "text": "Большой сосуд"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:clay_brick",
-      "text": "Глиняный Кирпич"
+      "text": "Глиняный кирпич"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:clay_flower_pot",
-      "text": "Горшок для Цветов"
+      "text": "Горшок для цветов"
     },
     {
       "type": "tfc:fire_clay_knapping_recipe",
@@ -48,7 +48,7 @@
     {
       "type": "tfc:fire_clay_knapping_recipe",
       "recipe": "tfc:fire_clay_brick",
-      "text": "Огнеупорный Кирпич"
+      "text": "Огнеупорный кирпич"
     }
   ]
 }

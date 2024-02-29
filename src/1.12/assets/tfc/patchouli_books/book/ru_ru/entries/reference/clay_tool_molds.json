@@ -1,5 +1,5 @@
 {
-  "name": "Формы для Инструментов из Глины",
+  "name": "Формы для инструментов из глины",
   "icon": "tfc:textures/items/ceramics/unfired/mold/scythe_blade.png",
   "category": "reference",
   "advancement": "tfc:main/find_clay",
@@ -8,72 +8,72 @@
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:ingot_mold",
-      "text": "Форма для Слитка"
+      "text": "Форма для слитка"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:pick_head_mold",
-      "text": "Форма для Лезвия Кирки"
+      "text": "Форма для лезвия кирки"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:shovel_head_mold",
-      "text": "Форма для Лопаты"
+      "text": "Форма для лопаты"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:axe_head_mold",
-      "text": "Форма для Топора"
+      "text": "Форма для топора"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:hoe_head_mold",
-      "text": "Форма для Серпа"
+      "text": "Форма для серпа"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:chisel_head_mold",
-      "text": "Форма для Долота"
+      "text": "Форма для долота"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:sword_blade_mold",
-      "text": "Форма для Клинка Меча"
+      "text": "Форма для клинка меча"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:mace_head_mold",
-      "text": "Форма для Головы Булавы"
+      "text": "Форма для головы булавы"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:saw_blade_mold",
-      "text": "Форма для Пилы"
+      "text": "Форма для пилы"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:javelin_head_mold",
-      "text": "Форма для Головы Дротика"
+      "text": "Форма для головы дротика"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:hammer_head_mold",
-      "text": "Форма для Молота"
+      "text": "Форма для молота"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:propick_head_mold",
-      "text": "Форма для Головы Геологического Молотка"
+      "text": "Форма для головы геологического молотка"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:knife_blade_mold",
-      "text": "Форма для Лезвия Ножа"
+      "text": "Форма для лезвия ножа"
     },
     {
       "type": "tfc:clay_knapping_recipe",
       "recipe": "tfc:scythe_blade_mold",
-      "text": "Форма для Лезвия Косы"
+      "text": "Форма для лезвия косы"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Основы Гончарного Дела",
+  "name": "Основы гончарного дела",
   "icon": "minecraft:textures/items/clay_ball.png",
   "category": "getting_started",
   "advancement": "tfc:main/find_clay",

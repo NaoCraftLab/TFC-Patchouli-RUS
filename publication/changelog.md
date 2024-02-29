@@ -1,6 +1,37 @@
 # История версий
 
-## TFC Patchouli RUS 1.20.1-4
+## TFC Patchouli RUS 1.12.2-2-beta
+
+**Build date:** 2024-02-24<br/>
+**Minecraft version:** 1.12.2<br/>
+**TerraFirmaCraft version:** 1.7.23.181<br/>
+**Patchouli version:** 1.0-23.6
+
+### RU
+
+#### Исправлено
+
+- Убраны лишние большие буквы
+- Частично исправлена проблема с выходом текста за границы книги
+
+#### Известные проблемы
+
+- Некорректный перевод некоторых терминов
+- Выход текста за границы книги
+
+### EN
+
+#### Fixed
+
+- Unnecessary capital letters have been removed
+- The issue with text going beyond the book's boundaries has been partially fixed
+
+#### Known Issues
+
+- Incorrect translation of some terms
+- Text overflowing beyond the book's boundaries
+
+## TFC Patchouli RUS 1.20.1-4-beta
 
 **Build date:** 2024-02-28<br/>
 **Minecraft version:** 1.20.1<br/>
@@ -21,7 +52,7 @@
 
 # История версий
 
-## TFC Patchouli RUS 1.20.1-3
+## TFC Patchouli RUS 1.20.1-3-beta
 
 **Build date:** 2024-02-27<br/>
 **Minecraft version:** 1.20.1<br/>
@@ -90,7 +121,7 @@
 - All book categories have been translated
 - Translated almost all articles from the category "Getting Started"
 
-## TFC Patchouli RUS 1.12.2-1
+## TFC Patchouli RUS 1.12.2-1-beta
 
 **Build date:** 2024-02-24<br/>
 **Minecraft version:** 1.12.2<br/>

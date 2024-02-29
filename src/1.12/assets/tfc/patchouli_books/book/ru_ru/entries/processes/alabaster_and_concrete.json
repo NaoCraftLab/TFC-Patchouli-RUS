@@ -1,5 +1,5 @@
 {
-  "name": "Алебастр и Бетон",
+  "name": "Алебастр и бетон",
   "icon": "tfc:textures/items/alabaster_brick.png",
   "category": "processes",
   "advancement": "tfc:main/make_quern",
@@ -7,7 +7,7 @@
     {
       "type": "crafting",
       "recipe": "tfc:alabaster_brick",
-      "title": "Кирпич из Алебастра",
+      "title": "Кирпич из алебастра",
       "text": "В TFC много применений красителей, в основном для собственных блоков, которые можно красить, например алебастр. Чтобы сделать его, вам понадобятся кирпичи из алебастра, которые изготавливаются из минерала гипса."
     },
     {
@@ -33,7 +33,7 @@
     {
       "type": "crafting",
       "recipe": "tfc:vanilla/concrete_powder/orange_concrete_powder",
-      "title": "Порошок для Бетона",
+      "title": "Порошок для бетона",
       "text": "Конечно, вы также можете красить его обычным способом."
     }
   ]
