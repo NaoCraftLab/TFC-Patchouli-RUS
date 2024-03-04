@@ -1,5 +1,24 @@
 # История версий
 
+## TFC Patchouli RUS 1.20.1-5-beta
+
+**Build date:** 2024-03-04<br/>
+**Minecraft version:** 1.20.1<br/>
+**TerraFirmaCraft version:** 3.1.9<br/>
+**Patchouli version:** 1.20.1-84
+
+### RU
+
+#### Исправлено
+
+- Улучшен перевод геологических терминов
+
+### EN
+
+#### Fixed
+
+- Translation of geological terms has been improved
+
 ## TFC Patchouli RUS 1.12.2-2-beta
 
 **Build date:** 2024-02-24<br/>
