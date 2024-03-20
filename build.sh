@@ -26,6 +26,10 @@ fi
 
 BUILD_DIR="${WORKING_DIR}/build"
 RAW_DIR=${BUILD_DIR}/raw
+MC_LANG_SOURCE_FILE="${TFC_DIR}/src/main/resources/assets/minecraft/lang/ru_ru.json"
+MC_LANG_TARGET_DIR="${RAW_DIR}/assets/minecraft/lang"
+TFC_LANG_SOURCE_FILE="${TFC_DIR}/src/main/resources/assets/tfc/lang/ru_ru.json"
+TFC_LANG_TARGET_DIR="${RAW_DIR}/assets/tfc/lang"
 PATCHOULI_SOURCE_DIR="${TFC_DIR}/resources"
 PATCHOULI_BUILD_DIR="${TFC_DIR}/src/main/resources/assets/tfc/patchouli_books/field_guide/ru_ru"
 PATCHOULI_TARGET_DIR=${RAW_DIR}/assets/tfc/patchouli_books/field_guide/ru_ru
@@ -37,7 +41,6 @@ echo "Сборка: ${ARTIFACT_NAME}"
 
 echo "Очистка директории ${BUILD_DIR}"
 rm -rf $BUILD_DIR
-#mkdir -p $BUILD_DIR
 mkdir -p $RAW_DIR
 
 if [ "$MC_MINOR_VERSION" -gt "17" ]; then
@@ -54,6 +57,14 @@ if [ "$MC_MINOR_VERSION" -gt "17" ]; then
     echo "Копирование файлов перевода"
     mkdir -p $PATCHOULI_TARGET_DIR
     cp -rp ${PATCHOULI_BUILD_DIR}/* $PATCHOULI_TARGET_DIR
+
+    echo "Копирование Minecraft lang файлов"
+    mkdir -p $MC_LANG_TARGET_DIR
+    cp -rp $MC_LANG_SOURCE_FILE ${MC_LANG_TARGET_DIR}/ru_ru.json
+
+    echo "Копирование TFC lang файлов"
+    mkdir -p $TFC_LANG_TARGET_DIR
+    cp -rp $TFC_LANG_SOURCE_FILE ${TFC_LANG_TARGET_DIR}/ru_ru.json
 fi
 
 echo "Копирование метаданных ресурспака"
