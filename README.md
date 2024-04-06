@@ -1,6 +1,6 @@
 # TFC Patchouli RUS
 
-Ресурспак с переводом руководства TerraFirmaCraft от [NaoCraftLab](https://github.com/NaoCraftLab).
+Ресурспак с переводом руководства и lang-файлов TerraFirmaCraft от [NaoCraftLab](https://github.com/NaoCraftLab).
 
 ## Сборка
 
