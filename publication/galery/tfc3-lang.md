@@ -1,0 +1,2 @@
+- TFC3: Полный перевод языковых файлов
+- TFC3: Full translation of language files

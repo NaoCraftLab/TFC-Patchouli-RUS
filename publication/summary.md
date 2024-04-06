@@ -1,7 +1,7 @@
 # RU
 
-Перевод официальной книги Patchouli мода TerraFirmaCraft на русский язык.
+Перевод официальной книги Patchouli и языковых файлов мода TerraFirmaCraft на русский язык.
 
 # EN
 
-Translation of the official Patchouli book for the TerraFirmaCraft mod into Russian.
+Translation of the official book of the Patchouli and lang files of TerraFirmaCraft mod into Russian.
