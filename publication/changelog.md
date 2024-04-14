@@ -1,5 +1,24 @@
 # История версий
 
+## TFC Patchouli RUS 1.20.1-8-beta
+
+**Build date:** 2024-04-14<br/>
+**Minecraft version:** 1.20.1<br/>
+**TerraFirmaCraft version:** 3.1.9<br/>
+**Patchouli version:** 1.20.1-84
+
+### RU
+
+#### Исправлено
+
+- Исправления перевода от Taper4ik
+
+### EN
+
+#### Fixed
+
+- Translation corrections by Taper4ik
+
 ## TFC Patchouli RUS 1.20.1-7-beta
 
 **Build date:** 2024-04-06<br/>
