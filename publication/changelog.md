@@ -1,5 +1,26 @@
 # История версий
 
+## TFC Patchouli RUS 1.20.1-10-beta
+
+**Build date:** 2024-05-20<br/>
+**Minecraft version:** 1.20.1<br/>
+**TerraFirmaCraft version:** 3.2.3<br/>
+**Patchouli version:** 1.20.1-84
+
+### RU
+
+#### Новое
+
+- Перевод предметов, интерфейса и статей о Ткацком столе
+- Перевод предметов, интерфейса и статей об Отделке брони
+
+### EN
+
+#### New
+
+- Translation of items, interface, and articles about the Sewing Table
+- Translation of items, interface, and articles about Armor Trims
+
 ## TFC Patchouli RUS 1.20.1-9-beta
 
 **Build date:** 2024-04-17<br/>
