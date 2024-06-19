@@ -1,5 +1,24 @@
 # История версий
 
+## TFC Patchouli RUS 1.20.1-11-beta
+
+**Build date:** 2024-06-19<br/>
+**Minecraft version:** 1.20.1<br/>
+**TerraFirmaCraft version:** 3.2.4<br/>
+**Patchouli version:** 1.20.1-84
+
+### RU
+
+#### Исправлено
+
+- Исправлен перевод статей об арбузах
+
+### EN
+
+#### Fixed
+
+- Corrected translation of articles about watermelons
+
 ## TFC Patchouli RUS 1.20.1-10-beta
 
 **Build date:** 2024-05-20<br/>
